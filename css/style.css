@@ -1,0 +1,136 @@
+body{
+
+    height: 2000px;
+    padding-top: 156px;
+}
+
+
+/* header */
+.header{
+    background-color: lightgray;
+    padding: 20px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    
+}
+.logo{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.nav{
+    display:inline-block
+}
+
+.nav-li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/* section1 */
+
+.section-text{
+    width: 300px;
+    background-color: aqua;
+}
+
+/* section2 */
+
+.section2{
+    margin-top: 100px ;
+}
+
+
+
+
+.box-wrapper{
+    width: 400px;
+    height: 400px;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.box-1{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.box-2{
+
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.box-3{
+
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    right: 70px;
+    bottom: 70px;
+}
+
+/* section3 */
+
+.blu-box{
+    width: 400px;
+    height: 400px;
+    background-color:blue;
+    position: relative;
+
+}
+
+.yellow-box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* section4 */
+
+.section4{
+
+    margin-top: 100px;
+    
+}
+.image-wrapper{
+    position: relative;
+    width: 270px;
+}
+.egt{
+    
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+/* section5 */
+
+.livechat{
+
+    width: 50px;
+}
+
+.icon-wrapper{
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+}
